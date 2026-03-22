@@ -1,6 +1,7 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
 import PhoneNumber from 'awesome-phonenumber'
+import { xpRange } from '../lib/levelling.js'
 import { join } from 'path'
 
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
